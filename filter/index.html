@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<title>Filter Project</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="leftMenu">
+				<input
+					type="search"
+					name="search"
+					id="search"
+					placeholder="Search..."
+				/>
+				<h1>Categories</h1>
+				<div class="cats"></div>
+				<h1>Maximum Price</h1>
+				<div class="price">
+					<input
+						type="range"
+						name="priceRange"
+						id="priceRange"
+					/>
+					<span class="priceValue"></span>
+				</div>
+			</div>
+			<div class="content">
+				<div class="products"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
